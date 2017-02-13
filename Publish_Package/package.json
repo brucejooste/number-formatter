@@ -1,0 +1,23 @@
+{
+  "name": "publish-package",
+  "version": "0.0.1",
+  "description": "Testing publishing a package to npm",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brucejooste/publish-package.git"
+  },
+  "author": "Bruce Jooste <bsjooste@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brucejooste/publish-package/issues"
+  },
+  "homepage": "https://github.com/brucejooste/publish-package#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  }
+}
